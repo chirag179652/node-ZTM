@@ -14,7 +14,7 @@ app.post('/profile', (req, res) => {
   console.log(req.body);
   const user = {
     name: 'Amit Patial',
-    age: '24',
+    age: '25',
   };
   res.send('<h1>Getting Profile</h1>');
 });
