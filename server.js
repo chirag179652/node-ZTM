@@ -13,7 +13,7 @@ app.get('/profile', (req, res) => {
 app.post('/profile', (req, res) => {
   console.log(req.body);
   const user = {
-    name: 'Amit',
+    name: 'Amit Patial',
     age: '24',
   };
   res.send('<h1>Getting Profile</h1>');
